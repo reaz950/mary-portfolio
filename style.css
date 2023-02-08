@@ -149,8 +149,28 @@ header {
     text-align: center;
 }
 
-.what p{
+.what-para{
     font-size: 16px;
     margin-bottom: 50px;
     padding: 20px;
+}
+
+.card-items{
+    display: flex;
+
+}
+
+.card-item{
+    height: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    padding: 25px;  
+}
+
+.card-item img{
+    margin-top: 15px;
+}
+.card-item h4,p{
+    margin-top: 15px;
 }
