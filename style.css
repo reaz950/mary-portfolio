@@ -18,6 +18,12 @@
 
 /* Main css start */
 
+header {
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .nav {
   margin-top: 50px;
   display: flex;
@@ -35,13 +41,13 @@
 }
 
 .nav ul li {
-    list-style-type: none;
-    margin: 15px;
-    padding: 15px 20px;
-    transition: all linear 0.3s;
+  list-style-type: none;
+  margin: 15px;
+  padding: 15px 20px;
+  transition: all linear 0.3s;
 }
-.nav ul li:hover{
-    background-color: #fd6e0a;
+.nav ul li:hover {
+  background-color: #fd6e0a;
 }
 
 .nav ul li button {
@@ -49,5 +55,102 @@
   background-color: #fd6e0a;
   color: #fff;
   border: none;
+}
 
+/* Banner css start */
+
+.banner {
+  display: flex;
+  margin-top: 40px;
+}
+.banner-text {
+  width: 600px;
+}
+
+.banner-text h3 {
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.banner-text h1 {
+  font-family: Open Sans;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 116px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.banner-text p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.download-btn {
+  background-color: #fd6e0a;
+  padding: 15px 20px;
+  border: 2px solid #fd6e0a;
+  color: #fff;
+}
+
+.contact-btn {
+  padding: 15px 20px;
+  border: none;
+  color: #fd6e0a;
+  border: 2px solid #fd6e0a;
+  background-color: #fff;
+  margin-left: 20px;
+}
+
+.banner-img img {
+  width: 56%;
+}
+
+/* About part start  */
+
+.about {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 100px;
+  background: #FFF8F3;
+
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.about-info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+
+/* What part start  */
+
+
+
+.what h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.what p{
+    font-size: 16px;
+    margin-bottom: 50px;
+    padding: 20px;
 }
