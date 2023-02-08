@@ -1,0 +1,53 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.primary-orange {
+  color: #fd6e0a;
+}
+
+/* Main css start */
+
+.nav {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li {
+    list-style-type: none;
+    margin: 15px;
+    padding: 15px 20px;
+    transition: all linear 0.3s;
+}
+.nav ul li:hover{
+    background-color: #fd6e0a;
+}
+
+.nav ul li button {
+  padding: 15px 20px;
+  background-color: #fd6e0a;
+  color: #fff;
+  border: none;
+
+}
